@@ -1,0 +1,56 @@
+{
+  "seed": 42,
+  "raw_rows": 1030,
+  "duplicates_removed": 25,
+  "rows": 1005,
+  "mix_groups": 428,
+  "train_rows": 810,
+  "test_rows": 195,
+  "train_groups": 342,
+  "test_groups": 86,
+  "group_overlap": 0,
+  "rf_best_params": {
+    "max_depth": null,
+    "max_features": 0.7,
+    "min_samples_leaf": 1
+  },
+  "selected_model": "Random forest",
+  "dataset_sha256": "b74e071ea9aa03de39a5d04c85b324a318557d9f99c75a1108a5417ae6bb92e4",
+  "python": "3.14.8 (tags/v3.14.8:8e6e75d, Sep 30 2026, 18:19:33) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0",
+    "xlrd": "2.0.2"
+  },
+  "metrics": [
+    {
+      "model": "Mean baseline",
+      "cv_mae_mean": 13.21715973370539,
+      "cv_mae_std": 0.7066881391824266,
+      "mae": 12.920797058300723,
+      "rmse": 16.158086282681655,
+      "r2": -0.00029558456617495565
+    },
+    {
+      "model": "Linear regression",
+      "cv_mae_mean": 8.441828369060032,
+      "cv_mae_std": 0.2276904054139134,
+      "mae": 7.51584089100908,
+      "rmse": 9.584846827271045,
+      "r2": 0.6480192925450303
+    },
+    {
+      "model": "Random forest",
+      "cv_mae_mean": 4.518662581239985,
+      "cv_mae_std": 0.5518755555795091,
+      "mae": 4.234387479576547,
+      "rmse": 5.540496316362676,
+      "r2": 0.8823895675324225
+    }
+  ]
+}

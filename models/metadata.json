@@ -1,0 +1,33 @@
+{
+  "selected_model": "Random forest",
+  "features": [
+    "cement",
+    "slag",
+    "fly_ash",
+    "water",
+    "superplasticizer",
+    "coarse_aggregate",
+    "fine_aggregate",
+    "age"
+  ],
+  "training_min": {
+    "cement": 108.3,
+    "slag": 0.0,
+    "fly_ash": 0.0,
+    "water": 121.75,
+    "superplasticizer": 0.0,
+    "coarse_aggregate": 801.0,
+    "fine_aggregate": 594.0,
+    "age": 1.0
+  },
+  "training_max": {
+    "cement": 540.0,
+    "slag": 359.4,
+    "fly_ash": 200.0,
+    "water": 246.9,
+    "superplasticizer": 32.2,
+    "coarse_aggregate": 1145.0,
+    "fine_aggregate": 992.6,
+    "age": 365.0
+  }
+}

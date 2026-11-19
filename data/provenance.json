@@ -1,0 +1,8 @@
+{
+  "source_url": "https://archive.ics.uci.edu/static/public/165/concrete%2Bcompressive%2Bstrength.zip",
+  "doi": "10.24432/C5PK67",
+  "author": "I-Cheng Yeh",
+  "license": "CC BY 4.0",
+  "archive_sha256": "dad85d14de8aee4e07479daa774e6b569a313715b71a3b92c95a07cf91c2c9a7",
+  "transformation": "Original row order and values retained; columns renamed; exported as CSV."
+}
